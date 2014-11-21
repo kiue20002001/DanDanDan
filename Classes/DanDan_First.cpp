@@ -49,28 +49,15 @@ bool DanDan::init()
     this->addChild(menu, 1);
     
     /////////////////////////////
-    // 3. add your codes below...
     
-    // add a label shows "Hello World"
-    // create and initialize a label
-    
-//    auto label = LabelTTF::create("Hello World", "Arial", 24);
-    
-    // position the label on the center of the screen
-//    label->setPosition(Vec2(origin.x + visibleSize.width/2,
-//                            origin.y + visibleSize.height - label->getContentSize().height));
-    
-    // add the label as a child to this layer
-//    this->addChild(label, 1);
-    
-    // add "HelloWorld" splash screen"
-    auto sprite = Sprite::create("MakeMeGame.002.png");
-    
+    //Create BackGround//
+    auto BG = Sprite::create("MakeMeGame.002.png");
     // position the sprite on the center of the screen
-    sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-    
+    BG->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     // add the sprite as a child to this layer
-    this->addChild(sprite, 0);
+    this->addChild(BG, 0);
+    //Create BackGround//
+    showPlayer(visibleSize,origin);
     
     return true;
 }
