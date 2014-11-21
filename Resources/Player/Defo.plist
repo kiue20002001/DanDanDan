@@ -4,161 +4,161 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		<key>defo_top_03.jpg</key>
+		<key>Defo_D1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{208,312},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_top_02.jpg</key>
+		<key>Defo_D2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{104,312},{104,104}}</string>
+			<string>{{128,0},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_top_01.jpg</key>
+		<key>Defo_D3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0,312},{104,104}}</string>
+			<string>{{256,0},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_right_03.jpg</key>
+		<key>Defo_L1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{208,208},{104,104}}</string>
+			<string>{{0,128},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_right_02.jpg</key>
+		<key>Defo_L2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{104,208},{104,104}}</string>
+			<string>{{128,128},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_right_01.jpg</key>
+		<key>Defo_L3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0,208},{104,104}}</string>
+			<string>{{256,128},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_left_03.jpg</key>
+		<key>Defo_R1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{208,104},{104,104}}</string>
+			<string>{{0,256},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_left_02.jpg</key>
+		<key>Defo_R2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{104,104},{104,104}}</string>
+			<string>{{128,256},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_left_01.jpg</key>
+		<key>Defo_R3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0,104},{104,104}}</string>
+			<string>{{256,256},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_bottom_03.jpg</key>
+		<key>Defo_U1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{208,0},{104,104}}</string>
+			<string>{{0,384},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_bottom_02.jpg</key>
+		<key>Defo_U2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{104,0},{104,104}}</string>
+			<string>{{128,384},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
-		<key>defo_bottom_01.jpg</key>
+		<key>Defo_U3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{256,384},{128,128}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{104,104}}</string>
+			<string>{{0,0},{128,128}}</string>
 			<key>sourceSize</key>
-			<string>{104,104}</string>
+			<string>{128,128}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>
@@ -168,7 +168,7 @@
 		<key>realTextureFileName</key>
 		<string>Defo.png</string>
 		<key>size</key>
-		<string>{312,128}</string>
+		<string>{384,512}</string>
 		<key>textureFileName</key>
 		<string>Defo.png</string>
 	</dict>

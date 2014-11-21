@@ -58,7 +58,6 @@ bool DanDan::init()
     this->addChild(BG, 0);
     //Create BackGround//
     showPlayer(visibleSize,origin);
-    
     return true;
 }
 

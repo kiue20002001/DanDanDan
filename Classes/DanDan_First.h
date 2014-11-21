@@ -14,7 +14,7 @@
 class DanDan : public cocos2d::Layer
 {
     void showPlayer(cocos2d::Size,cocos2d::Vec2);
-
+    void anime();
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
     static cocos2d::Scene* createScene();
