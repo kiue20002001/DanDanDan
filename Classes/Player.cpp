@@ -4,12 +4,17 @@
 //
 //  Created by AbeShumpei on 2014/11/21.
 //
-//  tag Player 100番台を使用
+//  tag showPlayer 100番台を使用
 //player:tag100
 //うえ:tag 101
 //ひだり:tag 102
 //みぎ:tag 103
 //した:tag 104
+//  tag movePlayer 200番台を使用
+//うえ:tag 201
+//ひだり:tag 202
+//みぎ:tag 203
+//した:tag 204
 
 #include "DanDan_First.h"
 USING_NS_CC;
@@ -17,14 +22,20 @@ USING_NS_CC;
 void DanDan::showPlayer()
 {
     //player:tag100
-//    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Defo.plist");
-//    CCSprite *player = CCSprite::createWithSpriteFrameName("Defo_D1.png");
-    auto player = Sprite::create("defo01.png",DanCell);
-    // position the sprite on the center of the screen
+    auto player = CCSprite::create("defo01.png",DanCell);
     player->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-    // add the sprite as a child to this layer
     this->addChild(player);
     player -> setTag(100);
+}
+void DanDan::movePlayer()
+{
+    CCAnimationCache* cache = CCAnimationCache::sharedAnimationCache();
+    cache->addAnimationsWithFile("Defo_Walk.plist");
+    CCAnimation* animationD = cache->animationByName("Defo_Walk_Ue");
+    CCAnimate* actionD = CCAnimate::create(animationD);
+    CCSprite* player = (CCSprite*)this->getChildByTag(100);
+    player->runAction(actionD);
+    actionD->setTag(201);
 }
 
 void DanDan::showYazirushi()
@@ -53,5 +64,4 @@ void DanDan::showYazirushi()
     Yazirushi_Shita->setRotation(270);
     this->addChild(Yazirushi_Shita);
     Yazirushi_Shita -> setTag(104);
-    
 }

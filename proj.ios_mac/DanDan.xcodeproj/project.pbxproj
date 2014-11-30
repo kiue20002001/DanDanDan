@@ -66,10 +66,10 @@
 		640F281B1A1ED369001AB975 /* MakeMeGame.002.png in Resources */ = {isa = PBXBuildFile; fileRef = 640F281A1A1ED369001AB975 /* MakeMeGame.002.png */; };
 		640F281F1A1ED423001AB975 /* DanDan_First.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 640F281D1A1ED423001AB975 /* DanDan_First.cpp */; };
 		640F28221A1EEDE2001AB975 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 640F28201A1EEDE2001AB975 /* Player.cpp */; };
-		640F282E1A1EEED5001AB975 /* actor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 640F282B1A1EEED5001AB975 /* actor4.plist */; };
 		640F282F1A1EEED5001AB975 /* Defo.png in Resources */ = {isa = PBXBuildFile; fileRef = 640F282C1A1EEED5001AB975 /* Defo.png */; };
 		640F28301A1EEED5001AB975 /* defo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 640F282D1A1EEED5001AB975 /* defo01.png */; };
 		640F28321A1EFB78001AB975 /* Defo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 640F28311A1EFB78001AB975 /* Defo.plist */; };
+		641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */; };
 		6431078B1A28D79700A31787 /* Yazirushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6431078A1A28D79700A31787 /* Yazirushi.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -274,10 +274,10 @@
 		640F281D1A1ED423001AB975 /* DanDan_First.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DanDan_First.cpp; path = ../Classes/DanDan_First.cpp; sourceTree = "<group>"; };
 		640F281E1A1ED423001AB975 /* DanDan_First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DanDan_First.h; path = ../Classes/DanDan_First.h; sourceTree = "<group>"; };
 		640F28201A1EEDE2001AB975 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../Classes/Player.cpp; sourceTree = "<group>"; };
-		640F282B1A1EEED5001AB975 /* actor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actor4.plist; sourceTree = "<group>"; };
 		640F282C1A1EEED5001AB975 /* Defo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defo.png; sourceTree = "<group>"; };
 		640F282D1A1EEED5001AB975 /* defo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defo01.png; sourceTree = "<group>"; };
 		640F28311A1EFB78001AB975 /* Defo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo.plist; sourceTree = "<group>"; };
+		641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo_Walk.plist; sourceTree = "<group>"; };
 		6431078A1A28D79700A31787 /* Yazirushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -488,7 +488,7 @@
 			isa = PBXGroup;
 			children = (
 				640F28311A1EFB78001AB975 /* Defo.plist */,
-				640F282B1A1EEED5001AB975 /* actor4.plist */,
+				641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */,
 				640F282C1A1EEED5001AB975 /* Defo.png */,
 				640F282D1A1EEED5001AB975 /* defo01.png */,
 			);
@@ -682,11 +682,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
-				640F282E1A1EEED5001AB975 /* actor4.plist in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				640F28321A1EFB78001AB975 /* Defo.plist in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x0.png in Resources */,

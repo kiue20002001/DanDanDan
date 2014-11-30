@@ -17,6 +17,7 @@ class DanDan : public cocos2d::Layer
     cocos2d::Vec2 origin;
     cocos2d::CCRect DanCell;
     void showPlayer();
+    void movePlayer();
     void showYazirushi();
     void anime();
 public:

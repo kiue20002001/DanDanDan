@@ -59,6 +59,9 @@ bool DanDan::init()
     //Create BackGround//
     showPlayer();
     showYazirushi();
+    movePlayer();
+//    this->schedule(schedule_selector(DanDan::movePlayer), 3.0);
+
     return true;
 }
 
