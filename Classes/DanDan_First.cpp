@@ -27,9 +27,9 @@ bool DanDan::init()
         return false;
     }
     
-    Size visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
-    
+    visibleSize = Director::getInstance()->getVisibleSize();
+    origin = Director::getInstance()->getVisibleOrigin();
+    DanCell = CCRectMake(0, 0, 128, 128);
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.
@@ -57,7 +57,8 @@ bool DanDan::init()
     // add the sprite as a child to this layer
     this->addChild(BG, 0);
     //Create BackGround//
-    showPlayer(visibleSize,origin);
+    showPlayer();
+    showYazirushi();
     return true;
 }
 
