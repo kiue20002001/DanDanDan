@@ -13,13 +13,20 @@
 
 class DanDan : public cocos2d::Layer
 {
+    //DaDan_first//
     cocos2d::Size visibleSize;
     cocos2d::Vec2 origin;
     cocos2d::CCRect DanCell;
+
+    //Player.cpp
     void showPlayer();
     void movePlayer();
     void showYazirushi();
-    void anime();
+    bool onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event);
+    void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
+    void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
+    //Player.cpp
+
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
     static cocos2d::Scene* createScene();

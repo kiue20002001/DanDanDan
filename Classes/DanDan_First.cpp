@@ -56,11 +56,21 @@ bool DanDan::init()
     BG->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     // add the sprite as a child to this layer
     this->addChild(BG, 0);
+    BG -> setTag(0);
+
+    
     //Create BackGround//
     showPlayer();
-    showYazirushi();
+   showYazirushi();
     movePlayer();
-//    this->schedule(schedule_selector(DanDan::movePlayer), 3.0);
+
+    //イベントリスナーを作成
+    auto listener = EventListenerTouchOneByOne::create();
+    listener->onTouchBegan = CC_CALLBACK_2(DanDan::onTouchBegan, this);
+    listener->onTouchMoved = CC_CALLBACK_2(DanDan::onTouchMoved, this);
+    listener->onTouchEnded = CC_CALLBACK_2(DanDan::onTouchEnded, this);
+    //イベントリスナーを登録
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
 
     return true;
 }

@@ -70,6 +70,7 @@
 		640F28301A1EEED5001AB975 /* defo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 640F282D1A1EEED5001AB975 /* defo01.png */; };
 		640F28321A1EFB78001AB975 /* Defo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 640F28311A1EFB78001AB975 /* Defo.plist */; };
 		641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */; };
+		641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF91A2B713200282DCA /* Yazirushi_After.png */; };
 		6431078B1A28D79700A31787 /* Yazirushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6431078A1A28D79700A31787 /* Yazirushi.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -278,6 +279,7 @@
 		640F282D1A1EEED5001AB975 /* defo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defo01.png; sourceTree = "<group>"; };
 		640F28311A1EFB78001AB975 /* Defo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo.plist; sourceTree = "<group>"; };
 		641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo_Walk.plist; sourceTree = "<group>"; };
+		641B2FF91A2B713200282DCA /* Yazirushi_After.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi_After.png; sourceTree = "<group>"; };
 		6431078A1A28D79700A31787 /* Yazirushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -498,6 +500,7 @@
 		643107891A28D79700A31787 /* Yazirushi */ = {
 			isa = PBXGroup;
 			children = (
+				641B2FF91A2B713200282DCA /* Yazirushi_After.png */,
 				6431078A1A28D79700A31787 /* Yazirushi.png */,
 			);
 			name = Yazirushi;
@@ -698,6 +701,7 @@
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
