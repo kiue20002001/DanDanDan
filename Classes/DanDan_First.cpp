@@ -61,9 +61,10 @@ bool DanDan::init()
     
     //Create BackGround//
     showPlayer();
-   showYazirushi();
+    showYazirushi();
     movePlayer();
-
+    Dancing_Effect();
+    
     //イベントリスナーを作成
     auto listener = EventListenerTouchOneByOne::create();
     listener->onTouchBegan = CC_CALLBACK_2(DanDan::onTouchBegan, this);

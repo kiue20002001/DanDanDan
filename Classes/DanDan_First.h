@@ -20,12 +20,18 @@ class DanDan : public cocos2d::Layer
 
     //Player.cpp
     void showPlayer();
+    int stopTag;
     void movePlayer();
     void showYazirushi();
     bool onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event);
     void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
     void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
     //Player.cpp
+    //Effect.cpp
+    double Time=1./4.;
+    double Scale=1.2;
+    void Dancing(int TagNumber);
+    void Dancing_Effect();
 
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer

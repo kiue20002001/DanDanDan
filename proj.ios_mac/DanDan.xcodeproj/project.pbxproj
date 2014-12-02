@@ -71,6 +71,7 @@
 		640F28321A1EFB78001AB975 /* Defo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 640F28311A1EFB78001AB975 /* Defo.plist */; };
 		641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */; };
 		641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF91A2B713200282DCA /* Yazirushi_After.png */; };
+		641B7F8C1A2E15DB000D0EE8 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */; };
 		6431078B1A28D79700A31787 /* Yazirushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6431078A1A28D79700A31787 /* Yazirushi.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -280,6 +281,7 @@
 		640F28311A1EFB78001AB975 /* Defo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo.plist; sourceTree = "<group>"; };
 		641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo_Walk.plist; sourceTree = "<group>"; };
 		641B2FF91A2B713200282DCA /* Yazirushi_After.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi_After.png; sourceTree = "<group>"; };
+		641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.cpp; path = ../Classes/Effect.cpp; sourceTree = "<group>"; };
 		6431078A1A28D79700A31787 /* Yazirushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -364,6 +366,7 @@
 				640F281D1A1ED423001AB975 /* DanDan_First.cpp */,
 				640F281E1A1ED423001AB975 /* DanDan_First.h */,
 				640F28201A1EEDE2001AB975 /* Player.cpp */,
+				641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -732,6 +735,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641B7F8C1A2E15DB000D0EE8 /* Effect.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				640F28221A1EEDE2001AB975 /* Player.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,

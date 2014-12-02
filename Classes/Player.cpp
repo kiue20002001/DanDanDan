@@ -64,6 +64,8 @@ void DanDan::showYazirushi()
     Yazirushi_Shita->setRotation(270);
     this->addChild(Yazirushi_Shita,5);
     Yazirushi_Shita -> setTag(104);
+    
+    
 }
 bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     Rect targetBox;
@@ -94,10 +96,10 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
+        
         log("した");
         return true;
     }
-    
     return true;
 }
 
