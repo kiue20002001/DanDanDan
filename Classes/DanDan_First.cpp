@@ -29,7 +29,11 @@ bool DanDan::init()
     
     visibleSize = Director::getInstance()->getVisibleSize();
     origin = Director::getInstance()->getVisibleOrigin();
-    DanCell = CCRectMake(0, 0, 128, 128);
+    DanSize =visibleSize.width/5.;
+    log("ログ");
+    log("%f",DanSize);
+
+    DanCell = CCRectMake(0, 0, DanSize, DanSize);
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.
@@ -62,7 +66,6 @@ bool DanDan::init()
     //Create BackGround//
     showPlayer();
     showYazirushi();
-    movePlayer();
     Dancing_Effect();
     
     //イベントリスナーを作成

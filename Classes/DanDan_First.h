@@ -16,21 +16,31 @@ class DanDan : public cocos2d::Layer
     //DaDan_first//
     cocos2d::Size visibleSize;
     cocos2d::Vec2 origin;
+    double DanSize;
     cocos2d::CCRect DanCell;
 
     //Player.cpp
     void showPlayer();
     int stopTag;
     void movePlayer();
+    void stopPlayer();
+    //Player.cpp
+    
+    //Yazirushi.cpp
     void showYazirushi();
+    //Yazirushi.cpp
+
+    //Touch.cpp
     bool onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event);
     void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
     void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
-    //Player.cpp
+    //Touch.cpp
+
     //Effect.cpp
     double Time=1./4.;
     double Scale=1.2;
     void Dancing(int TagNumber);
+    void Jumping(int TagNumber);
     void Dancing_Effect();
 
 public:
