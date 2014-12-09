@@ -23,19 +23,20 @@ void DanDan::showPlayer()
     this->addChild(player);
     player -> setTag(100);
     
-    CCAnimationCache* cache = CCAnimationCache::sharedAnimationCache();
-    cache->addAnimationsWithFile("Defoko00_Gyaku_Anime.plist");
-    CCAnimation* animationD = cache->animationByName("Defoko00_Gyaku_1");
-    CCAnimate* actionD = CCAnimate::create(animationD);
-    player->runAction(actionD);
-    actionD->setTag(101);
-    stopTag=101;
+    movePlayer(2,1);
 }
-void DanDan::movePlayer()
+void DanDan::movePlayer(int animeNumber,int moveNumber)
 {
+    std::string Anime_Str = "Defoko00_Anime_";
+    Anime_Str += cocos2d::StringUtils::toString<int>(animeNumber);
+    Anime_Str += ".plist";
+    std::string Move_Str = "Defoko00_";
+    Move_Str += cocos2d::StringUtils::toString<int>(moveNumber);
+    
+    
     CCAnimationCache* cache = CCAnimationCache::sharedAnimationCache();
-    cache->addAnimationsWithFile("Defoko00_Anime.plist");
-    CCAnimation* animationD = cache->animationByName("Defoko00_1");
+    cache->addAnimationsWithFile(Anime_Str);
+    CCAnimation* animationD = cache->animationByName(Move_Str);
     CCAnimate* actionD = CCAnimate::create(animationD);
     CCSprite* player = (CCSprite*)this->getChildByTag(100);
     player->runAction(actionD);

@@ -22,7 +22,7 @@ class DanDan : public cocos2d::Layer
     //Player.cpp
     void showPlayer();
     int stopTag;
-    void movePlayer();
+    void movePlayer(int animeNumber,int moveNumber);
     void stopPlayer();
     //Player.cpp
     
