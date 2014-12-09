@@ -20,14 +20,18 @@ class DanDan : public cocos2d::Layer
     cocos2d::CCRect DanCell;
     
     //Map.cpp
+    void createMap();
+    void defaultXY();
     void showMap();
     void moveMap(int x,int y);
+    bool MapDate[100][100];
     //Map.cpp
     //Player.cpp
     void showPlayer();
     int stopTag;
     void movePlayer(int animeNumber,int moveNumber);
     void stopPlayer();
+    int  PlayerX,PlayerY;//mapの位置
     //Player.cpp
     
     //Yazirushi.cpp

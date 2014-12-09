@@ -8,39 +8,51 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-        log("うえ");
-//        stopPlayer();
-        moveMap(0,-1);
-        //anime move
+        if(MapDate[PlayerX][PlayerY+1]){
+            moveMap(0,-1);
+            PlayerY++;
+        }
+        log("うえ=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
     target = (Sprite*)this->getChildByTag(202);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-        log("ひだり");
         stopPlayer();
-        moveMap(1,0);
         movePlayer(1,1);
+        if(MapDate[PlayerX-1][PlayerY]){
+            moveMap(1,0);
+            PlayerX--;
+        }
+        
+        log("ひだり=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
     target = (Sprite*)this->getChildByTag(203);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-        log("みぎ");
         stopPlayer();
-        moveMap(-1,0);
         movePlayer(2,1);
+        if(MapDate[PlayerX+1][PlayerY]){
+            moveMap(-1,0);
+            PlayerX++;
+        }
+        log("みぎ=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
     target = (Sprite*)this->getChildByTag(204);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-//        stopPlayer();
-        log("した");
-        moveMap(0,1);
+
+        if(MapDate[PlayerX][PlayerY-1]){
+            moveMap(0,1);
+            PlayerY--;
+        }
+
+        log("した=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
     return true;

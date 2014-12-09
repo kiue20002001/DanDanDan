@@ -46,11 +46,17 @@ void DanDan::Jumping(int TagNumber)
 }
 
 void DanDan::Dancing_Effect(){
+    //背景を踊らす
+//    DanDan::Jumping(0);
+    //背景を踊らす
+
     //十字キーを踊らす
     DanDan::Dancing(201);
     DanDan::Dancing(202);
     DanDan::Dancing(203);
     DanDan::Dancing(204);
-    DanDan::Jumping(100);
     //十字キーを踊らす
+    //Defokoを踊らす
+    DanDan::Jumping(100);
+    //Defokoを踊らす
 }

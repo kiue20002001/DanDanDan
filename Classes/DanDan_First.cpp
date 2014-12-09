@@ -53,6 +53,9 @@ bool DanDan::init()
     this->addChild(menu, 1);
     
     /////////////////////////////
+    createMap();
+    showMap();
+    defaultXY();
     
     //Create BackGround//
     auto BG = Sprite::create("MakeMeGame.002.png");
@@ -64,7 +67,6 @@ bool DanDan::init()
 
     
     //Create BackGround//
-    showMap();
     showPlayer();
     showYazirushi();
     Dancing_Effect();
