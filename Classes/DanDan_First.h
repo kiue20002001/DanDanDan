@@ -18,7 +18,11 @@ class DanDan : public cocos2d::Layer
     cocos2d::Vec2 origin;
     double DanSize;
     cocos2d::CCRect DanCell;
-
+    
+    //Map.cpp
+    void showMap();
+    void moveMap(int x,int y);
+    //Map.cpp
     //Player.cpp
     void showPlayer();
     int stopTag;

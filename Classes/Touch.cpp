@@ -10,6 +10,7 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     {
         log("うえ");
 //        stopPlayer();
+        moveMap(0,-1);
         //anime move
         return true;
     }
@@ -19,6 +20,7 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     {
         log("ひだり");
         stopPlayer();
+        moveMap(1,0);
         movePlayer(1,1);
         return true;
     }
@@ -28,6 +30,7 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     {
         log("みぎ");
         stopPlayer();
+        moveMap(-1,0);
         movePlayer(2,1);
         return true;
     }
@@ -37,6 +40,7 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     {
 //        stopPlayer();
         log("した");
+        moveMap(0,1);
         return true;
     }
     return true;

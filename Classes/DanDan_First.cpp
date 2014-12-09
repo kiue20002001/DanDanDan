@@ -64,6 +64,7 @@ bool DanDan::init()
 
     
     //Create BackGround//
+    showMap();
     showPlayer();
     showYazirushi();
     Dancing_Effect();
