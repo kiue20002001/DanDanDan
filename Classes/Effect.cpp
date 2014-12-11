@@ -58,5 +58,7 @@ void DanDan::Dancing_Effect(){
     //十字キーを踊らす
     //Defokoを踊らす
     DanDan::Jumping(100);
+    //Monster
+    DanDan::Jumping(300);
     //Defokoを踊らす
 }

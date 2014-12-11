@@ -49,9 +49,9 @@ void DanDan::showMap()
     MapZero -> setTag(1000);
 }
 
-void DanDan::moveMap(int x,int y)
+void DanDan::shiftMap(int x,int y,double MapTime)
 {
-    CCActionInterval* scaleAction = CCMoveBy::create(Time, ccp(DanSize*x, DanSize*y));
+    CCActionInterval* scaleAction = CCMoveBy::create(MapTime, ccp(DanSize*x, DanSize*y));
     CCSequence* sequence = CCSequence::create(scaleAction, NULL);
     CCRepeat* repeat = CCRepeat::create(sequence, 1);
     getChildByTag(1000)->runAction(repeat);
@@ -59,5 +59,5 @@ void DanDan::moveMap(int x,int y)
 void DanDan::defaultXY()
 {
     PlayerX=5,PlayerY=5;
-    moveMap(-PlayerX,-PlayerY);
+    shiftMap(-PlayerX,-PlayerY,0);
 }

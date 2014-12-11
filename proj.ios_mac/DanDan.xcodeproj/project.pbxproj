@@ -18,10 +18,8 @@
 		1AC6FB31180E99EB004C840B /* libcocos2dx-extensions iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB09180E9839004C840B /* libcocos2dx-extensions iOS.a */; };
 		1AC6FB32180E99EB004C840B /* libCocosDenshion iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB0F180E9839004C840B /* libCocosDenshion iOS.a */; };
 		1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
-		1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */; };
 		1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B916D35E4900DB1158 /* CloseNormal.png */; };
 		1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */; };
-		1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
@@ -34,9 +32,7 @@
 		503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
 		5087E75317EB910900C73F5D /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B916D35E4900DB1158 /* CloseNormal.png */; };
 		5087E75417EB910900C73F5D /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */; };
-		5087E75517EB910900C73F5D /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */; };
 		5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
-		5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */; };
 		5087E76317EB910900C73F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5087E76517EB910900C73F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		5087E76717EB910900C73F5D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -73,17 +69,27 @@
 		641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF91A2B713200282DCA /* Yazirushi_After.png */; };
 		641B7F8C1A2E15DB000D0EE8 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */; };
 		6431078B1A28D79700A31787 /* Yazirushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6431078A1A28D79700A31787 /* Yazirushi.png */; };
-		647D3ADC1A35FED9006D3AED /* Defoko00_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AD91A35FED9006D3AED /* Defoko00_png.plist */; };
-		647D3ADD1A35FED9006D3AED /* Defoko00_Anime_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3ADA1A35FED9006D3AED /* Defoko00_Anime_1.plist */; };
-		647D3ADE1A35FED9006D3AED /* Defoko00.png in Resources */ = {isa = PBXBuildFile; fileRef = 647D3ADB1A35FED9006D3AED /* Defoko00.png */; };
-		647D3AE31A3601EC006D3AED /* Defoko00_Gyaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AE01A3601EC006D3AED /* Defoko00_Gyaku.png */; };
-		647D3AE41A3601EC006D3AED /* Defoko00_Anime_2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AE11A3601EC006D3AED /* Defoko00_Anime_2.plist */; };
-		647D3AE51A3601EC006D3AED /* Defoko00_Gyaku_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AE21A3601EC006D3AED /* Defoko00_Gyaku_png.plist */; };
 		647D3AE81A36045B006D3AED /* Yazirushi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647D3AE61A36045B006D3AED /* Yazirushi.cpp */; };
 		647D3AEB1A36048B006D3AED /* Touch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647D3AE91A36048B006D3AED /* Touch.cpp */; };
 		647D3AEF1A374F69006D3AED /* Tile00.png in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AED1A374F69006D3AED /* Tile00.png */; };
 		647D3AF01A374F69006D3AED /* Tile_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AEE1A374F69006D3AED /* Tile_png.plist */; };
 		647D3AF31A374FBA006D3AED /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647D3AF11A374FBA006D3AED /* Map.cpp */; };
+		647D3AF91A386EA0006D3AED /* Slime00.png in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AF61A386EA0006D3AED /* Slime00.png */; };
+		647D3AFA1A386EA0006D3AED /* Slime00_Anime_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AF71A386EA0006D3AED /* Slime00_Anime_1.plist */; };
+		647D3AFB1A386EA0006D3AED /* Slime00_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D3AF81A386EA0006D3AED /* Slime00_png.plist */; };
+		647D3AFE1A387A9F006D3AED /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647D3AFC1A387A9F006D3AED /* Monster.cpp */; };
+		64CBD0541A39EC320022B551 /* Defoko00.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0451A39EC320022B551 /* Defoko00.png */; };
+		64CBD0551A39EC320022B551 /* Defoko00_Anime_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0461A39EC320022B551 /* Defoko00_Anime_1.plist */; };
+		64CBD0561A39EC320022B551 /* Defoko00_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0471A39EC320022B551 /* Defoko00_png.plist */; };
+		64CBD0571A39EC320022B551 /* Defoko00_Anime_2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0491A39EC320022B551 /* Defoko00_Anime_2.plist */; };
+		64CBD0581A39EC320022B551 /* Defoko00_Gyaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD04A1A39EC320022B551 /* Defoko00_Gyaku.png */; };
+		64CBD0591A39EC320022B551 /* Defoko00_Gyaku_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD04B1A39EC320022B551 /* Defoko00_Gyaku_png.plist */; };
+		64CBD05A1A39EC320022B551 /* Defoko00_Anime_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD04D1A39EC320022B551 /* Defoko00_Anime_3.plist */; };
+		64CBD05B1A39EC320022B551 /* Defoko00_Battle.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD04E1A39EC320022B551 /* Defoko00_Battle.png */; };
+		64CBD05C1A39EC320022B551 /* Defoko00_Battle_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD04F1A39EC320022B551 /* Defoko00_Battle_png.plist */; };
+		64CBD05D1A39EC320022B551 /* Defoko00_Anime_4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0511A39EC320022B551 /* Defoko00_Anime_4.plist */; };
+		64CBD05E1A39EC320022B551 /* Defoko00_BattleGyaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0521A39EC320022B551 /* Defoko00_BattleGyaku.png */; };
+		64CBD05F1A39EC320022B551 /* Defoko00_BattleGyaku_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64CBD0531A39EC320022B551 /* Defoko00_BattleGyaku_png.plist */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -241,11 +247,8 @@
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		1AFAF8B416D35DE700DB1158 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
-		1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		1AFAF8B916D35E4900DB1158 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
-		1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* DanDan iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DanDan iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -294,17 +297,27 @@
 		641B2FF91A2B713200282DCA /* Yazirushi_After.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi_After.png; sourceTree = "<group>"; };
 		641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.cpp; path = ../Classes/Effect.cpp; sourceTree = "<group>"; };
 		6431078A1A28D79700A31787 /* Yazirushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi.png; sourceTree = "<group>"; };
-		647D3AD91A35FED9006D3AED /* Defoko00_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_png.plist; sourceTree = "<group>"; };
-		647D3ADA1A35FED9006D3AED /* Defoko00_Anime_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Anime_1.plist; sourceTree = "<group>"; };
-		647D3ADB1A35FED9006D3AED /* Defoko00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defoko00.png; sourceTree = "<group>"; };
-		647D3AE01A3601EC006D3AED /* Defoko00_Gyaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defoko00_Gyaku.png; sourceTree = "<group>"; };
-		647D3AE11A3601EC006D3AED /* Defoko00_Anime_2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Anime_2.plist; sourceTree = "<group>"; };
-		647D3AE21A3601EC006D3AED /* Defoko00_Gyaku_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Gyaku_png.plist; sourceTree = "<group>"; };
 		647D3AE61A36045B006D3AED /* Yazirushi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Yazirushi.cpp; path = ../Classes/Yazirushi.cpp; sourceTree = "<group>"; };
 		647D3AE91A36048B006D3AED /* Touch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Touch.cpp; path = ../Classes/Touch.cpp; sourceTree = "<group>"; };
 		647D3AED1A374F69006D3AED /* Tile00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile00.png; sourceTree = "<group>"; };
 		647D3AEE1A374F69006D3AED /* Tile_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tile_png.plist; sourceTree = "<group>"; };
 		647D3AF11A374FBA006D3AED /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Map.cpp; path = ../Classes/Map.cpp; sourceTree = "<group>"; };
+		647D3AF61A386EA0006D3AED /* Slime00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slime00.png; sourceTree = "<group>"; };
+		647D3AF71A386EA0006D3AED /* Slime00_Anime_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Slime00_Anime_1.plist; sourceTree = "<group>"; };
+		647D3AF81A386EA0006D3AED /* Slime00_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Slime00_png.plist; sourceTree = "<group>"; };
+		647D3AFC1A387A9F006D3AED /* Monster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Monster.cpp; path = ../Classes/Monster.cpp; sourceTree = "<group>"; };
+		64CBD0451A39EC320022B551 /* Defoko00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defoko00.png; sourceTree = "<group>"; };
+		64CBD0461A39EC320022B551 /* Defoko00_Anime_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Anime_1.plist; sourceTree = "<group>"; };
+		64CBD0471A39EC320022B551 /* Defoko00_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_png.plist; sourceTree = "<group>"; };
+		64CBD0491A39EC320022B551 /* Defoko00_Anime_2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Anime_2.plist; sourceTree = "<group>"; };
+		64CBD04A1A39EC320022B551 /* Defoko00_Gyaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defoko00_Gyaku.png; sourceTree = "<group>"; };
+		64CBD04B1A39EC320022B551 /* Defoko00_Gyaku_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Gyaku_png.plist; sourceTree = "<group>"; };
+		64CBD04D1A39EC320022B551 /* Defoko00_Anime_3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Anime_3.plist; sourceTree = "<group>"; };
+		64CBD04E1A39EC320022B551 /* Defoko00_Battle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defoko00_Battle.png; sourceTree = "<group>"; };
+		64CBD04F1A39EC320022B551 /* Defoko00_Battle_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Battle_png.plist; sourceTree = "<group>"; };
+		64CBD0511A39EC320022B551 /* Defoko00_Anime_4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_Anime_4.plist; sourceTree = "<group>"; };
+		64CBD0521A39EC320022B551 /* Defoko00_BattleGyaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defoko00_BattleGyaku.png; sourceTree = "<group>"; };
+		64CBD0531A39EC320022B551 /* Defoko00_BattleGyaku_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko00_BattleGyaku_png.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -383,12 +396,11 @@
 			children = (
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
-				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
-				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
 				640F281D1A1ED423001AB975 /* DanDan_First.cpp */,
 				640F281E1A1ED423001AB975 /* DanDan_First.h */,
 				647D3AF11A374FBA006D3AED /* Map.cpp */,
 				640F28201A1EEDE2001AB975 /* Player.cpp */,
+				647D3AFC1A387A9F006D3AED /* Monster.cpp */,
 				647D3AE61A36045B006D3AED /* Yazirushi.cpp */,
 				647D3AE91A36048B006D3AED /* Touch.cpp */,
 				641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */,
@@ -518,8 +530,11 @@
 			isa = PBXGroup;
 			children = (
 				640F28311A1EFB78001AB975 /* Defo.plist */,
-				647D3AD81A35FED9006D3AED /* Defoko00 */,
 				641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */,
+				64CBD0441A39EC320022B551 /* Defoko00_1_move */,
+				64CBD0481A39EC320022B551 /* Defoko00_2_moveGyaku */,
+				64CBD04C1A39EC320022B551 /* Defoko00_3_Battle */,
+				64CBD0501A39EC320022B551 /* Defoko00_4_BattleGyaku */,
 				640F282C1A1EEED5001AB975 /* Defo.png */,
 				640F282D1A1EEED5001AB975 /* defo01.png */,
 			);
@@ -536,28 +551,6 @@
 			path = ../Yazirushi;
 			sourceTree = "<group>";
 		};
-		647D3AD81A35FED9006D3AED /* Defoko00 */ = {
-			isa = PBXGroup;
-			children = (
-				647D3ADF1A3601EC006D3AED /* Defoko00_Gyaku */,
-				647D3AD91A35FED9006D3AED /* Defoko00_png.plist */,
-				647D3ADA1A35FED9006D3AED /* Defoko00_Anime_1.plist */,
-				647D3ADB1A35FED9006D3AED /* Defoko00.png */,
-			);
-			path = Defoko00;
-			sourceTree = "<group>";
-		};
-		647D3ADF1A3601EC006D3AED /* Defoko00_Gyaku */ = {
-			isa = PBXGroup;
-			children = (
-				647D3AE01A3601EC006D3AED /* Defoko00_Gyaku.png */,
-				647D3AE11A3601EC006D3AED /* Defoko00_Anime_2.plist */,
-				647D3AE21A3601EC006D3AED /* Defoko00_Gyaku_png.plist */,
-			);
-			name = Defoko00_Gyaku;
-			path = ../Defoko00_Gyaku;
-			sourceTree = "<group>";
-		};
 		647D3AEC1A374F69006D3AED /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +560,56 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
+		647D3AF51A386EA0006D3AED /* Monster */ = {
+			isa = PBXGroup;
+			children = (
+				647D3AF61A386EA0006D3AED /* Slime00.png */,
+				647D3AF71A386EA0006D3AED /* Slime00_Anime_1.plist */,
+				647D3AF81A386EA0006D3AED /* Slime00_png.plist */,
+			);
+			path = Monster;
+			sourceTree = "<group>";
+		};
+		64CBD0441A39EC320022B551 /* Defoko00_1_move */ = {
+			isa = PBXGroup;
+			children = (
+				64CBD0451A39EC320022B551 /* Defoko00.png */,
+				64CBD0461A39EC320022B551 /* Defoko00_Anime_1.plist */,
+				64CBD0471A39EC320022B551 /* Defoko00_png.plist */,
+			);
+			path = Defoko00_1_move;
+			sourceTree = "<group>";
+		};
+		64CBD0481A39EC320022B551 /* Defoko00_2_moveGyaku */ = {
+			isa = PBXGroup;
+			children = (
+				64CBD0491A39EC320022B551 /* Defoko00_Anime_2.plist */,
+				64CBD04A1A39EC320022B551 /* Defoko00_Gyaku.png */,
+				64CBD04B1A39EC320022B551 /* Defoko00_Gyaku_png.plist */,
+			);
+			path = Defoko00_2_moveGyaku;
+			sourceTree = "<group>";
+		};
+		64CBD04C1A39EC320022B551 /* Defoko00_3_Battle */ = {
+			isa = PBXGroup;
+			children = (
+				64CBD04D1A39EC320022B551 /* Defoko00_Anime_3.plist */,
+				64CBD04E1A39EC320022B551 /* Defoko00_Battle.png */,
+				64CBD04F1A39EC320022B551 /* Defoko00_Battle_png.plist */,
+			);
+			path = Defoko00_3_Battle;
+			sourceTree = "<group>";
+		};
+		64CBD0501A39EC320022B551 /* Defoko00_4_BattleGyaku */ = {
+			isa = PBXGroup;
+			children = (
+				64CBD0511A39EC320022B551 /* Defoko00_Anime_4.plist */,
+				64CBD0521A39EC320022B551 /* Defoko00_BattleGyaku.png */,
+				64CBD0531A39EC320022B551 /* Defoko00_BattleGyaku_png.plist */,
+			);
+			path = Defoko00_4_BattleGyaku;
+			sourceTree = "<group>";
+		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,7 +617,7 @@
 				640F282A1A1EEED5001AB975 /* Player */,
 				640F28171A1EBC2C001AB975 /* MakeMeGame */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
-				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
+				647D3AF51A386EA0006D3AED /* Monster */,
 				647D3AEC1A374F69006D3AED /* Map */,
 			);
 			name = Resources;
@@ -748,38 +791,46 @@
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
-				647D3AE31A3601EC006D3AED /* Defoko00_Gyaku.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */,
-				647D3ADD1A35FED9006D3AED /* Defoko00_Anime_1.plist in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				640F28321A1EFB78001AB975 /* Defo.plist in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x0.png in Resources */,
-				647D3ADE1A35FED9006D3AED /* Defoko00.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				64CBD0561A39EC320022B551 /* Defoko00_png.plist in Resources */,
+				64CBD0551A39EC320022B551 /* Defoko00_Anime_1.plist in Resources */,
+				64CBD05B1A39EC320022B551 /* Defoko00_Battle.png in Resources */,
+				64CBD05E1A39EC320022B551 /* Defoko00_BattleGyaku.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
+				64CBD05A1A39EC320022B551 /* Defoko00_Anime_3.plist in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				647D3AEF1A374F69006D3AED /* Tile00.png in Resources */,
 				640F281B1A1ED369001AB975 /* MakeMeGame.002.png in Resources */,
 				640F28191A1EBC2C001AB975 /* Default-568h@2x.png in Resources */,
+				64CBD0581A39EC320022B551 /* Defoko00_Gyaku.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
-				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
+				647D3AF91A386EA0006D3AED /* Slime00.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
-				647D3ADC1A35FED9006D3AED /* Defoko00_png.plist in Resources */,
-				647D3AE51A3601EC006D3AED /* Defoko00_Gyaku_png.plist in Resources */,
-				647D3AE41A3601EC006D3AED /* Defoko00_Anime_2.plist in Resources */,
 				641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				647D3AFB1A386EA0006D3AED /* Slime00_png.plist in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				64CBD0541A39EC320022B551 /* Defoko00.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				640F28301A1EEED5001AB975 /* defo01.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
+				647D3AFA1A386EA0006D3AED /* Slime00_Anime_1.plist in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				64CBD05C1A39EC320022B551 /* Defoko00_Battle_png.plist in Resources */,
 				6431078B1A28D79700A31787 /* Yazirushi.png in Resources */,
 				640F282F1A1EEED5001AB975 /* Defo.png in Resources */,
+				64CBD0571A39EC320022B551 /* Defoko00_Anime_2.plist in Resources */,
+				64CBD05D1A39EC320022B551 /* Defoko00_Anime_4.plist in Resources */,
+				64CBD05F1A39EC320022B551 /* Defoko00_BattleGyaku_png.plist in Resources */,
 				647D3AF01A374F69006D3AED /* Tile_png.plist in Resources */,
+				64CBD0591A39EC320022B551 /* Defoko00_Gyaku_png.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,7 +841,6 @@
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				5087E75417EB910900C73F5D /* CloseSelected.png in Resources */,
-				5087E75517EB910900C73F5D /* HelloWorld.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,6 +851,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647D3AFE1A387A9F006D3AED /* Monster.cpp in Sources */,
 				641B7F8C1A2E15DB000D0EE8 /* Effect.cpp in Sources */,
 				647D3AE81A36045B006D3AED /* Yazirushi.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
@@ -811,7 +862,6 @@
 				640F281F1A1ED423001AB975 /* DanDan_First.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,7 +870,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
-				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

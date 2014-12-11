@@ -40,9 +40,19 @@ void DanDan::movePlayer(int animeNumber,int moveNumber)
     CCAnimate* actionD = CCAnimate::create(animationD);
     CCSprite* player = (CCSprite*)this->getChildByTag(100);
     player->runAction(actionD);
-    actionD->setTag(201);
     stopTag=201;
+    actionD->setTag(stopTag);
 }
+void DanDan::LeftMovePlayer(float delta)
+{
+    movePlayer(1,1);
+}
+void DanDan::RightMovePlayer(float delta)
+{
+    movePlayer(2,1);
+}
+
+
 void DanDan::stopPlayer()
 {
     CCSprite* player = (CCSprite*)this->getChildByTag(100);

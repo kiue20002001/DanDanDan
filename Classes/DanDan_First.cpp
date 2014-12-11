@@ -30,6 +30,7 @@ bool DanDan::init()
     visibleSize = Director::getInstance()->getVisibleSize();
     origin = Director::getInstance()->getVisibleOrigin();
     DanSize =visibleSize.width/5.;
+    
     log("ログ");
     log("%f",DanSize);
 
@@ -69,6 +70,7 @@ bool DanDan::init()
     //Create BackGround//
     showPlayer();
     showYazirushi();
+    createMonster();
     Dancing_Effect();
     
     //イベントリスナーを作成
