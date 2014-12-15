@@ -50,7 +50,7 @@ void DanDan::PlayerTouchAction(int x, int y)
             PlayerX+=x;
             PlayerY+=y;
         }else{
-            DamegedMonster(Time/3.);
+            DamegedMonster(Time);
             PlayerAction(PlayerStopTag+2-200,Time,1);
             PlayerStopTag=n;
         }

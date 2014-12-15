@@ -39,9 +39,13 @@ void DanDan::showMonster()
 {
     //player:tag100
     auto Monster = CCSprite::create("defo01.png",DanCell);
+    auto Monster1 = CCSprite::create("128.png",DanCell);
     Monster->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+    Monster1->setPosition(Vec2(DanSize*(0.5), DanSize*(0.5)));
+    Monster->addChild(Monster1);
     this->addChild(Monster);
     Monster -> setTag(300);
+    Monster1 -> setTag(301);
 }
 
 void DanDan::moveMonster(int animeNumber,int moveNumber)
@@ -59,11 +63,11 @@ void DanDan::moveMonster(int animeNumber,int moveNumber)
     CCAnimate* actionD = CCAnimate::create(animationD);
     CCSprite* player = (CCSprite*)this->getChildByTag(300);
     player->runAction(actionD);
-    actionD->setTag(301);
+    actionD->setTag(302);
 }
 void DanDan::DamegedMonster(double ActionTime)
 {
-    CCSprite* Monster =(CCSprite *)this->getChildByTag(300);
+    auto Monster =(CCSprite *)this->getChildByTag(300)->getChildByTag(301);
     CCAnimation* animation =CCAnimation::create();
     CCAnimate* MonsterDamege;
     
@@ -71,16 +75,14 @@ void DanDan::DamegedMonster(double ActionTime)
     cache->addSpriteFramesWithFile("Damage01_png.plist");
     
     for(int i=1;i<4;i++){
-        for(int x=1;x<4;x++){
-        auto str = __String::createWithFormat("Damage01_%x%i.png",x,i);
+        auto str = __String::createWithFormat("Damage01_2%i.png",i);
         SpriteFrame *sprite = cache->getSpriteFrameByName(str->getCString());
         animation->addSpriteFrame(sprite);
-        }
     }
     animation->setDelayPerUnit(ActionTime);
     animation->setLoops(1);
-
+    animation->setRestoreOriginalFrame(true);
     MonsterDamege = CCAnimate::create(animation);
     Monster->runAction(MonsterDamege);
-    MonsterDamege->setTag(302);
+    MonsterDamege->setTag(303);
 }

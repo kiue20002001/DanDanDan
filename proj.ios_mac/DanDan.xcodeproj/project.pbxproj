@@ -70,6 +70,7 @@
 		6416F6B01A3C0553001E2A7B /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6AA1A3C0553001E2A7B /* Player.png */; };
 		6416F6B41A3F5FC7001E2A7B /* Damage01_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6B21A3F5FC7001E2A7B /* Damage01_png.plist */; };
 		6416F6B51A3F5FC7001E2A7B /* Damage01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6B31A3F5FC7001E2A7B /* Damage01.png */; };
+		6416F6B71A3F685C001E2A7B /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6B61A3F685C001E2A7B /* 128.png */; };
 		641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */; };
 		641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF91A2B713200282DCA /* Yazirushi_After.png */; };
 		641B7F8C1A2E15DB000D0EE8 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */; };
@@ -303,6 +304,7 @@
 		6416F6AA1A3C0553001E2A7B /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
 		6416F6B21A3F5FC7001E2A7B /* Damage01_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Damage01_png.plist; sourceTree = "<group>"; };
 		6416F6B31A3F5FC7001E2A7B /* Damage01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Damage01.png; sourceTree = "<group>"; };
+		6416F6B61A3F685C001E2A7B /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128.png; sourceTree = "<group>"; };
 		641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo_Walk.plist; sourceTree = "<group>"; };
 		641B2FF91A2B713200282DCA /* Yazirushi_After.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi_After.png; sourceTree = "<group>"; };
 		641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.cpp; path = ../Classes/Effect.cpp; sourceTree = "<group>"; };
@@ -636,6 +638,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6416F6B61A3F685C001E2A7B /* 128.png */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				640F282A1A1EEED5001AB975 /* Player */,
 				640F28171A1EBC2C001AB975 /* MakeMeGame */,
@@ -832,6 +835,7 @@
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				647D3AEF1A374F69006D3AED /* Tile00.png in Resources */,
 				640F281B1A1ED369001AB975 /* MakeMeGame.002.png in Resources */,
+				6416F6B71A3F685C001E2A7B /* 128.png in Resources */,
 				640F28191A1EBC2C001AB975 /* Default-568h@2x.png in Resources */,
 				6416F6B01A3C0553001E2A7B /* Player.png in Resources */,
 				64CBD0581A39EC320022B551 /* Defoko00_Gyaku.png in Resources */,
