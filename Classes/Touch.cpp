@@ -4,60 +4,67 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
     Rect targetBox;
     Point touchPoint = Vec2(touch->getLocationInView().x, visibleSize.height-touch->getLocationInView().y);
     
+    //うえ
     auto target = (Sprite*)this->getChildByTag(201);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-        if(MapDate[PlayerX][PlayerY+1]){
-            if(MonsterDate[PlayerX][PlayerY+1]){
+        PlayerStop();
+        PlayerAction(PlayerStopTag-200,Time,-1);
+        int n=PlayerStopTag;
+        if(MapDate[PlayerX][PlayerY-1]){
+            if(MonsterDate[PlayerX][PlayerY-1]){
                 shiftMap(0,-1,Time);
                 shiftMonster(0,-1,Time);
                 PlayerY++;
             }else{
-                //上の攻撃アクション
+                PlayerAction(PlayerStopTag+2-200,Time,1);
+                PlayerStopTag=n;
+                //したの攻撃アクション
             }
         }
         log("Map=%d",MapDate[PlayerX][PlayerY]);
         log("うえ=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
+    //ひだり
     target = (Sprite*)this->getChildByTag(202);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-        stopPlayer();
-        movePlayer(1,1);
+        PlayerStop();
+        PlayerAction(1,Time,-1);
+        int n=PlayerStopTag;
         if(MapDate[PlayerX-1][PlayerY]){
-            log("①");
             if(MonsterDate[PlayerX-1][PlayerY]){
-                log("②");
                 shiftMap(1,0,Time);
                 shiftMonster(1,0,Time);
                 PlayerX--;
             }else{
-                log("③");
-                stopPlayer();
-                movePlayer(4,3);
-//                stopPlayer();
-                this->scheduleOnce(schedule_selector(DanDan::LeftMovePlayer), Time*4);
+                PlayerAction(PlayerStopTag+2-200,Time,1);
+                PlayerStopTag=n;
             }
         }
         log("Map=%d",MapDate[PlayerX][PlayerY]);
         log("ひだり=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
+    //みぎ
     target = (Sprite*)this->getChildByTag(203);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-        stopPlayer();
-        movePlayer(2,1);
+        PlayerStop();
+        PlayerAction(5,Time,-1);
+        int n=PlayerStopTag;
         if(MapDate[PlayerX+1][PlayerY]){
             if(MonsterDate[PlayerX+1][PlayerY]){
                 shiftMap(-1,0,Time);
                 shiftMonster(-1,0,Time);
                 PlayerX++;
             }else{
+                PlayerAction(PlayerStopTag+2-200,Time,1);
+                PlayerStopTag=n;
                 //みぎの攻撃アクション
             }
         }
@@ -65,17 +72,22 @@ bool DanDan::onTouchBegan(cocos2d::Touch* touch,cocos2d::Event* event){
         log("みぎ=X%d:Y%d",PlayerX,PlayerY);
         return true;
     }
+    //した
     target = (Sprite*)this->getChildByTag(204);
     targetBox = target->getBoundingBox();
     if (targetBox.containsPoint(touchPoint))
     {
-
+        PlayerStop();
+        PlayerAction(PlayerStopTag-200,Time,-1);
+        int n=PlayerStopTag;
         if(MapDate[PlayerX][PlayerY-1]){
             if(MonsterDate[PlayerX][PlayerY-1]){
                 shiftMap(0,1,Time);
                 shiftMonster(0,1,Time);
                 PlayerY--;
             }else{
+                PlayerAction(PlayerStopTag+2-200,Time,1);
+                PlayerStopTag=n;
                 //したの攻撃アクション
             }
         }

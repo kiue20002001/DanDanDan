@@ -26,13 +26,13 @@ class DanDan : public cocos2d::Layer
     void shiftMap(int x,int y,double MapTime);
     bool MapDate[100][100];
     //Map.cpp
+    //Action.cpp
+    int  PlayerStopTag;
+    void PlayerStop();
+    void PlayerAction(int x,double ActionTime,int n);
+    //Action.cpp
     //Player.cpp
     void showPlayer();
-    int stopTag;
-    void movePlayer(int animeNumber,int moveNumber);
-    void LeftMovePlayer(float delta);
-    void RightMovePlayer(float delta);
-    void stopPlayer();
     int  PlayerX,PlayerY;//mapの位置
     //Player.cpp
     //Monster.cpp
@@ -44,7 +44,6 @@ class DanDan : public cocos2d::Layer
     int  MonsterX,MonsterY;//mapの位置
     bool MonsterDate[100][100];
     //Monster.cpp
-    
     
     //Yazirushi.cpp
     void showYazirushi();
