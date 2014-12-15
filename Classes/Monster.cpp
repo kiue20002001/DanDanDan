@@ -61,4 +61,26 @@ void DanDan::moveMonster(int animeNumber,int moveNumber)
     player->runAction(actionD);
     actionD->setTag(301);
 }
+void DanDan::DamegedMonster(double ActionTime)
+{
+    CCSprite* Monster =(CCSprite *)this->getChildByTag(300);
+    CCAnimation* animation =CCAnimation::create();
+    CCAnimate* MonsterDamege;
+    
+    auto cache = CCSpriteFrameCache::getInstance();
+    cache->addSpriteFramesWithFile("Damage01_png.plist");
+    
+    for(int i=1;i<4;i++){
+        for(int x=1;x<4;x++){
+        auto str = __String::createWithFormat("Damage01_%x%i.png",x,i);
+        SpriteFrame *sprite = cache->getSpriteFrameByName(str->getCString());
+        animation->addSpriteFrame(sprite);
+        }
+    }
+    animation->setDelayPerUnit(ActionTime);
+    animation->setLoops(1);
 
+    MonsterDamege = CCAnimate::create(animation);
+    Monster->runAction(MonsterDamege);
+    MonsterDamege->setTag(302);
+}

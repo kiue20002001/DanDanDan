@@ -4,13 +4,11 @@
 //
 //  Created by AbeShumpei on 2014/11/21.
 //
-//  tag showPlayer 100番台を使用
-//player:tag100
-//  tag movePlayer 200番台を使用
-//うえ:tag 201
-//ひだり:tag 202
-//みぎ:tag 203
-//した:tag 204
+//player_Tag#100
+//Yazirushi_Tag#11-14
+//Monster_Tag#300番台
+//Action_Player#200番台を使用
+//Map#1000番台を使用
 
 #include "DanDan_First.h"
 USING_NS_CC;

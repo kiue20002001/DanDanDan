@@ -4,17 +4,12 @@
 //
 //  Created by AbeShumpei on 2014/11/21.
 //
-//  tag showPlayer 100番台を使用
-//player:tag100
-//うえ:tag 101
-//ひだり:tag 102
-//みぎ:tag 103
-//した:tag 104
-//  tag movePlayer 200番台を使用
-//うえ:tag 201
-//ひだり:tag 202
-//みぎ:tag 203
-//した:tag 204
+//player_Tag#100
+//Yazirushi_Tag#11-14
+//Monster_Tag#300番台
+//Action_Player#200番台を使用
+//Map#1000番台を使用
+
 
 #include "DanDan_First.h"
 USING_NS_CC;
@@ -51,10 +46,10 @@ void DanDan::Dancing_Effect(){
     //背景を踊らす
 
     //十字キーを踊らす
-    DanDan::Dancing(201);
-    DanDan::Dancing(202);
-    DanDan::Dancing(203);
-    DanDan::Dancing(204);
+    DanDan::Dancing(11);
+    DanDan::Dancing(12);
+    DanDan::Dancing(13);
+    DanDan::Dancing(14);
     //十字キーを踊らす
     //Defokoを踊らす
     DanDan::Jumping(100);

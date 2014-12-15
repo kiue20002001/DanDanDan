@@ -68,6 +68,8 @@
 		6416F6A01A3C025B001E2A7B /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6416F69E1A3C025B001E2A7B /* Action.cpp */; };
 		6416F6AB1A3C0553001E2A7B /* Defoko_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6A41A3C0553001E2A7B /* Defoko_png.plist */; };
 		6416F6B01A3C0553001E2A7B /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6AA1A3C0553001E2A7B /* Player.png */; };
+		6416F6B41A3F5FC7001E2A7B /* Damage01_png.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6B21A3F5FC7001E2A7B /* Damage01_png.plist */; };
+		6416F6B51A3F5FC7001E2A7B /* Damage01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416F6B31A3F5FC7001E2A7B /* Damage01.png */; };
 		641B2FF81A2B55DB00282DCA /* Defo_Walk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */; };
 		641B2FFA1A2B713200282DCA /* Yazirushi_After.png in Resources */ = {isa = PBXBuildFile; fileRef = 641B2FF91A2B713200282DCA /* Yazirushi_After.png */; };
 		641B7F8C1A2E15DB000D0EE8 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */; };
@@ -299,6 +301,8 @@
 		6416F69E1A3C025B001E2A7B /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Action.cpp; path = ../Classes/Action.cpp; sourceTree = "<group>"; };
 		6416F6A41A3C0553001E2A7B /* Defoko_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defoko_png.plist; sourceTree = "<group>"; };
 		6416F6AA1A3C0553001E2A7B /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		6416F6B21A3F5FC7001E2A7B /* Damage01_png.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Damage01_png.plist; sourceTree = "<group>"; };
+		6416F6B31A3F5FC7001E2A7B /* Damage01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Damage01.png; sourceTree = "<group>"; };
 		641B2FF71A2B55DB00282DCA /* Defo_Walk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defo_Walk.plist; sourceTree = "<group>"; };
 		641B2FF91A2B713200282DCA /* Yazirushi_After.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yazirushi_After.png; sourceTree = "<group>"; };
 		641B7F8A1A2E15DB000D0EE8 /* Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.cpp; path = ../Classes/Effect.cpp; sourceTree = "<group>"; };
@@ -581,6 +585,8 @@
 			isa = PBXGroup;
 			children = (
 				647D3AF61A386EA0006D3AED /* Slime00.png */,
+				6416F6B21A3F5FC7001E2A7B /* Damage01_png.plist */,
+				6416F6B31A3F5FC7001E2A7B /* Damage01.png */,
 				647D3AF71A386EA0006D3AED /* Slime00_Anime_1.plist */,
 				647D3AF81A386EA0006D3AED /* Slime00_png.plist */,
 			);
@@ -807,6 +813,7 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				6416F6B41A3F5FC7001E2A7B /* Damage01_png.plist in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
@@ -844,6 +851,7 @@
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				64CBD05C1A39EC320022B551 /* Defoko00_Battle_png.plist in Resources */,
 				6431078B1A28D79700A31787 /* Yazirushi.png in Resources */,
+				6416F6B51A3F5FC7001E2A7B /* Damage01.png in Resources */,
 				640F282F1A1EEED5001AB975 /* Defo.png in Resources */,
 				64CBD0571A39EC320022B551 /* Defoko00_Anime_2.plist in Resources */,
 				64CBD05D1A39EC320022B551 /* Defoko00_Anime_4.plist in Resources */,

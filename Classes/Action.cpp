@@ -28,10 +28,31 @@ void DanDan::PlayerAction(int x,double ActionTime,int n)
     player->runAction(PkayerAct);
     PlayerStopTag=200+x;
     PkayerAct->setTag(PlayerStopTag);
-    log("プレイヤータグ：：%d",PlayerStopTag);
 }
 void DanDan::PlayerStop()
 {
     CCSprite* player = (CCSprite*)this->getChildByTag(100);
     player->stopActionByTag(PlayerStopTag);
+}
+void DanDan::PlayerTouchAction(int x, int y)
+{
+    PlayerStop();
+    if(y!=0){
+        PlayerAction(PlayerStopTag-200,Time,-1);
+    }else{
+            PlayerAction(2*x+3,Time,-1);
+    }
+    int n=PlayerStopTag;
+    if(MapDate[PlayerX+x][PlayerY+y]){
+        if(MonsterDate[PlayerX+x][PlayerY+y]){
+            shiftMap(-x,-y,Time);
+            shiftMonster(-x,-y,Time);
+            PlayerX+=x;
+            PlayerY+=y;
+        }else{
+            DamegedMonster(Time/3.);
+            PlayerAction(PlayerStopTag+2-200,Time,1);
+            PlayerStopTag=n;
+        }
+    }
 }

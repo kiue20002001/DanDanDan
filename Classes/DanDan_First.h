@@ -5,6 +5,11 @@
 //  Created by AbeShumpei on 2014/11/21.
 //
 //
+//player_Tag#100
+//Yazirushi_Tag#11-14
+//Monster_Tag#300番台
+//Action_Player#200番台を使用
+//Map#1000番台を使用
 
 #ifndef __DanDan__DanDan_First__
 #define __DanDan__DanDan_First__
@@ -30,6 +35,7 @@ class DanDan : public cocos2d::Layer
     int  PlayerStopTag;
     void PlayerStop();
     void PlayerAction(int x,double ActionTime,int n);
+    void PlayerTouchAction(int x,int y);
     //Action.cpp
     //Player.cpp
     void showPlayer();
@@ -43,6 +49,7 @@ class DanDan : public cocos2d::Layer
     void stopMonster();
     int  MonsterX,MonsterY;//mapの位置
     bool MonsterDate[100][100];
+    void DamegedMonster(double MonsterTime);
     //Monster.cpp
     
     //Yazirushi.cpp
