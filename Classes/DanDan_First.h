@@ -39,6 +39,7 @@ class DanDan : public cocos2d::Layer
     //Action.cpp
     //Player.cpp
     void showPlayer();
+    void showHeart(int x);
     int  PlayerX,PlayerY;//mapの位置
     //Player.cpp
     //Monster.cpp
